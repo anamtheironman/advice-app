@@ -31,12 +31,12 @@ export default class App extends Component {
               <span>ANOTHER ONE!</span>
             </button>
           </div>
-        </div>
-        <div id="footer">
-          {" "}
-          &#169; Ahmmed Al Zubaer Anam
-          <br />
-          Photo Credit: Tushar Imran
+          <div id="footer">
+            {" "}
+            &#169; Ahmmed Al Zubaer Anam
+            <br />
+            Photo Credit: Tushar Imran
+          </div>
         </div>
       </>
     );
