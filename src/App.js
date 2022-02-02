@@ -23,14 +23,22 @@ export default class App extends Component {
   render() {
     const { advice } = this.state;
     return (
-      <div className="app">
-        <div className="card">
-          <h1 className="heading">{advice}</h1>
-          <button className="button" onClick={this.fetchAdvice}>
-            <span>ANOTHER ONE!</span>
-          </button>
+      <>
+        <div className="app">
+          <div className="card">
+            <h1 className="heading">{advice}</h1>
+            <button className="button" onClick={this.fetchAdvice}>
+              <span>ANOTHER ONE!</span>
+            </button>
+          </div>
         </div>
-      </div>
+        <div id="footer">
+          {" "}
+          &#169; Ahmmed Al Zubaer Anam
+          <br />
+          Photo Credit: Tushar Imran
+        </div>
+      </>
     );
   }
 }
